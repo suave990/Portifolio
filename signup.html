@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Signup | Suavis</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1,width=device-width,initial-scale=1,user-scalable=0">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <span><a href="./index.html">Home</a></span>
+        <span><a href="./blogs.html">Blogs</a></span>
+        <span><a href="./portfolio.html">Portfolia</a></span>
+        <span id="dashboard"><a href="./portfolio.html#skills">Skills</a></span>
+        <span><a href="./contact.html">Contacts</a></span>
+        <span><a href="./signin.html">Sign in</a></span>
+    </header>
+    <main>
+        <section class="sign">
+            <div>
+                <div class="image">
+                    <img alt="signin" src="./images/clement-helardot-95YRwf6CNw8-unsplash.jpg" />
+                </div>
+                <div class="content">
+                    <form name="createAccount">
+                        <label>Full name</label>
+                        <input type="text" name="name" />
+                        <label>Email</label>
+                        <input type="text" name="email" />
+                        <label>Password</label>
+                        <input type="password" name="password" id="password" />
+                        <label>Repeate Password</label>
+                        <input type="password" name="repeatepassword" id="repeatepassword" />
+                        <label><input type="checkbox" />remember me</label>
+                        <button class="button1" type="submit">Signup</button>
+                    </form>
+                    <script type="module" defer src="/js/users/addusers.js"></script>
+                    <div>
+                        <span>have an account? Click </span>
+                        <a href="./signin.html" class="here">here</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        copyright @2022. All right reserved<br />
+        Designed by Suavis
+    </footer>
+</body>
+
+</html>

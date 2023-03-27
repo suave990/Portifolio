@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Signin | Suavis</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1,width=device-width,initial-scale=1,user-scalable=0">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <span><a href="./index.html">Home</a></span>
+        <span><a href="./blogs.html">Blogs</a></span>
+        <span><a href="./portfolio.html">Portfolia</a></span>
+        <span id="dashboard"><a href="./portfolio.html#skills">Skills</a></span>
+        <span><a href="./contact.html">Contacts</a></span>
+        <span><a href="./signup.html">Signup</a></span>
+    </header>
+    <main>
+        <section class="sign">
+            <div>
+                <div class="image">
+                    <img alt="signin" src="./images/temple-cerulean-tP8ZwlCF8og-unsplash2.jpg" />
+                </div>
+                <div class="content">
+                    <form name="signin">
+                        <label>Email</label>
+                        <input type="text" name="email" required />
+                        <label>Password</label>
+                        <input type="password" name="password" required />
+                        <label><input type="checkbox" />remember me</label>
+                        <button class="button1" type="submit">Signin</button>
+                    </form>
+                    <script type="module" defer src="/js/users/signin.js"></script>
+                    <div>
+                        <span>don’t have an account? Click </span>
+                        <a href="./signup.html" class="here">here</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        copyright @2022. All right reserved<br />
+        Designed by Suavis
+    </footer>
+</body>
+
+</html>
